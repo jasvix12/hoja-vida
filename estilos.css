@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    background-color: #f7fafc;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Contenedor principal */
+.max-w-lg {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen de perfil */
+.profile-pic {
+    border: 3px solid #ccc;
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Nombre del usuario */
+.name {
+    color: #2d3748;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Títulos de secciones */
+.section-title {
+    background-color: #e2e8f0;
+    color: #4a5568;
+    font-size: 1.1rem;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section-title:hover {
+    background-color: #cbd5e0;
+}
+
+/* Contenido de secciones */
+.section-content {
+    padding: 15px 20px;
+    background-color: #f7fafc;
+    color: #4a5568;
+}
+
+.field-label {
+    font-weight: 600;
+}
+
+/* Botones */
+.action-btn {
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.action-btn:hover {
+    opacity: 0.9;
+}
+
+.action-btn.bg-blue-500 {
+    background-color: #4299e1;
+}
+
+.action-btn.bg-blue-500:hover {
+    background-color: #3182ce;
+}
+
+.action-btn.bg-green-500 {
+    background-color: #48bb78;
+}
+
+.action-btn.bg-green-500:hover {
+    background-color: #38a169;
+}
+
+
+.footer {
+    background-color: #0f0101; /* Fondo negro */
+    color: #0c0c0c; /* Color de texto blanco */
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: #0a0a0a; /* Asegura que el texto sea blanco */
+}
+
+
+
